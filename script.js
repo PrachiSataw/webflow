@@ -18,28 +18,28 @@ var i = setInterval(function(){
 function imagechange(){
 
   var image = document.getElementById('image');
-  var images = ['31.jpg', 'team6.jpg', 'blog-selection-min.jpg', 'flower.jpg', 'marmeladz-poster-3.jpg', 'rodion-kutsaiev-0VGG7cqTwCo-unsplash.jpg']
+  var images = ['/images/31.jpg', '/images/team6.jpg', '/images/blog-selection-min.jpg', '/images/flower.jpg', '/images/marmeladz-poster-3.jpg', '/images/rodion-kutsaiev-0VGG7cqTwCo-unsplash.jpg']
   setInterval(function(){
     var random = Math.floor(Math.random() * 6);
     image.src = images[random];
   }, 800);
   
   var image1 = document.getElementById('image1');
-  var images1 = ['7.jpg', 'team16.jpg', '30.jpg', 'chatapp8.jpg', 'team5.jpg']
+  var images1 = ['/images/7.jpg', '/images/team16.jpg', '/images/30.jpg', '/images/chatapp8.jpg', '/images/team5.jpg']
   setInterval(function(){
     var random = Math.floor(Math.random() * 5);
     image1.src = images1[random];
   }, 800);
   
   var image2 = document.getElementById('image2');
-  var images2 = ['marmeladz-poster.jpg', '8.jpg', 'team-app1-min-p-2000.jpg', 'nathana-reboucas-Xfs4JHzLR-g-unsplash.jpg', '33.jpg', 'teamapp-using1-p-1600.jpg']
+  var images2 = ['/images/marmeladz-poster.jpg', '/images/8.jpg', '/images/team-app1-min-p-2000.jpg', '/images/nathana-reboucas-Xfs4JHzLR-g-unsplash.jpg', '/images/33.jpg', '/images/teamapp-using1-p-1600.jpg']
   setInterval(function(){
     var random = Math.floor(Math.random() * 6);
     image2.src = images2[random];
   }, 800);
   
   var image3 = document.getElementById('image3');
-  var images3 = ['ca-creative-5rz05L5LZn0-unsplash.jpg', 'chatapp8.jpg', '36.jpg', 'malte-helmhold-eIDFKcbDxXo-unsplash.jpg', '25.webp', '37.jpg']
+  var images3 = ['/images/ca-creative-5rz05L5LZn0-unsplash.jpg', '/images/chatapp8.jpg', '/images/36.jpg', '/images/malte-helmhold-eIDFKcbDxXo-unsplash.jpg', '/images/25.webp', '/images/37.jpg']
   setInterval(function(){
     var random = Math.floor(Math.random() * 6);
     image3.src = images3[random];

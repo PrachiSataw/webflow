@@ -1,14 +1,14 @@
 @font-face {
     font-family: Roboto_Serif;
-    src: url('/Roboto_Serif/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf');
+    src: url('/fonts/Roboto_Serif/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf');
 }
 @font-face {
     font-family: Aboreto;
-    src: url('/Aboreto/Aboreto-Regular.ttf');
+    src: url('/fonts/Aboreto/Aboreto-Regular.ttf');
 }
 @font-face {
     font-family: Gilroy;
-    src: url("/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf");
+    src: url("/fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf");
 }
 
 *{
@@ -304,17 +304,25 @@ body::-webkit-scrollbar{
     flex-direction: column;
 }
 .onetop{
+    position: relative;
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .onetop>h1{
      font-family: Roboto, sans-serif;
      font-size: 5.5rem;
      font-weight: 100;
      color: #FFFFFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.onetop>h1>img{
+    width: 4vw;
 }
 .onebottom{ 
     width: 100%;
@@ -328,6 +336,12 @@ body::-webkit-scrollbar{
     font-weight: 100;
     letter-spacing: 10px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onebottom>h1>img{
+    width: 4vw;
 }
 .block2{
     width: 100%;
@@ -808,8 +822,7 @@ body::-webkit-scrollbar{
      color: #000;
 }
 .btop>h1>img{
-    height: 50px;
-    width: 50px;
+    width: 4vw;
     color: #000;
 }
 .bbottom{
@@ -832,8 +845,7 @@ body::-webkit-scrollbar{
      color: #000;
 }
 .bbottom>h1>img{
-    height: 50px;
-    width: 50px;
+    width: 4vw;
     color: #000;
 }
 .sec8block2{
@@ -975,8 +987,7 @@ body::-webkit-scrollbar{
      justify-content: center;
 }
 .sec9top>h1>img{
-    height: 50px;
-    width: 50px;
+    width: 4vw;
     color: #000;
 } 
 .sec9bottom{
@@ -997,8 +1008,7 @@ body::-webkit-scrollbar{
      left:-10%;
 }
 .sec9bottom>h1>img{
-    height: 50px;
-    width: 50px;
+    width: 4vw;
     color: #000;
 }
 .sec9block2{
@@ -1289,8 +1299,14 @@ body::-webkit-scrollbar{
    .block1 .onetop>h1{
          font-size: 5.5vw;
     }
+    .block1 .onetop>h1>img{
+        width: 6vw;
+    }
     .block1 .onebottom>h1{
         font-size: 5.5vw;
+    }
+    .block1 .onebottom>h1>img{
+        width: 6vw;
     }
     .block2 .text1>h1{
            font-size: 8vw;
@@ -1459,8 +1475,14 @@ body::-webkit-scrollbar{
     .sec8block1 .btop>h1{
          font-size: 6.5vw;
     }
+    .sec8block1 .btop>h1>img{
+        width: 6vw;
+    }
     .sec8block1 .bbottom>h1{
          font-size: 6.5vw;
+    }
+    .sec8block1 .bbottom>h1>img{
+        width: 6vw;
     }
     
     .sec8block3 .b3top>p{
@@ -1505,12 +1527,17 @@ body::-webkit-scrollbar{
     .sec9block1 .sec9top>h1{
          font-size: 6vw;
     }
+    .sec9block1 .sec9top>h1>img{
+        width: 6vw;
+    }
     .sec9block1 .sec9bottom>h1{
          font-size: 6vw;
          position: relative;
          left: -20%;
     }
-    
+    .sec9block1 .sec9bottom>h1>img{
+        width: 6vw;
+    }
     .under .do>h1{
         font-size: 2.8vw;
     }
@@ -1644,6 +1671,9 @@ body::-webkit-scrollbar{
          align-items: center;
          justify-content: center;
     }
+    .block1 .onetop>h1>img{
+        width: 8vw;
+    }
     .block1>.onebottom h1{
         font-size: 8.5vw;
         display: flex;
@@ -1651,6 +1681,9 @@ body::-webkit-scrollbar{
         justify-content: center;
         position: relative;
         left: -60%;
+    }
+    .block1 .onebottom>h1>img{
+        width: 8vw;
     }
     .twotopcentre .text1>h1{
            font-size: 11.5vw;
@@ -1793,10 +1826,16 @@ body::-webkit-scrollbar{
     .sec8block1 .btop>h1{
          font-size: 10vw;
     }
+    .sec8block1 .btop>h1>img{
+        width: 8vw;
+    }
     .sec8block1 .bbottom>h1{
          font-size: 10vw;
          position: relative;
          left: -120%;
+    }
+    .sec8block1 .bbottom>h1>img{
+        width: 8vw;
     }
     .sec8block3 .b3top>p{
         width: 70vw;
@@ -1855,11 +1894,17 @@ body::-webkit-scrollbar{
     .sec9block1 .sec9top>h1{
          font-size: 9vw;
     }
+    .sec9block1 .sec9top>h1>img{
+        width: 8vw;
+    }
     .sec9block1 .sec9bottom>h1{
          font-size: 9vw;
          position: relative;
          left: -40%;
     }    
+    .sec9block1 .sec9bottom>h1>img{
+        width: 8vw;
+    }
     .under .do>h1{
         font-size: 4vw;
     }
@@ -2041,11 +2086,17 @@ body::-webkit-scrollbar{
              font-size: 13vw;
              display: flex;
         }
+        .block1 .onetop>h1>img{
+            width: 10vw;
+        }
         .block1>.onebottom h1{
             font-size: 13vw;
             position: relative;
             left: -70%;
             display: flex;
+        }
+        .block1 .onebottom>h1>img{
+            width: 10vw;
         }
         #section>.block2{
             width: 100%;
@@ -2199,6 +2250,9 @@ body::-webkit-scrollbar{
              align-items: center;
              justify-content: center;
         }
+        .sec8block1 .btop>h1>img{
+            width: 10vw;
+        }
         .sec8block1>.bbottom>h1{
              font-size: 10vw;
              position: relative;
@@ -2206,6 +2260,9 @@ body::-webkit-scrollbar{
              display: flex;
              align-items: center;
              justify-content: center;
+        }
+        .sec8block1 .bbottom>h1>img{
+            width: 10vw;
         }
         .sec8block3>.b3top>p{
             width: 85vw;
@@ -2274,6 +2331,9 @@ body::-webkit-scrollbar{
         .sec9block1>.sec9top>h1{
              font-size: 12vw;
         }
+        .sec9block1 .sec9top>h1>img{
+            width: 10vw;
+        }
         .sec9block1>.sec9bottom>h1{
              font-size: 12vw;
              position: relative;
@@ -2281,6 +2341,9 @@ body::-webkit-scrollbar{
              display: flex;
              align-items: center;
              justify-content: center;
+        }
+        .sec9block1 .sec9bottom>h1>img{
+            width: 10vw;
         }
         .under>.do>h1{
             font-size: 6vw;
