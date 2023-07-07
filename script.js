@@ -39,7 +39,7 @@ function imagechange(){
   }, 800);
   
   var image3 = document.getElementById('image3');
-  var images3 = ['./images/ca-creative-5rz05L5LZn0-unsplash.jpg', './images/chatapp8.jpg', './images/36.jpg', './images/malte-helmhold-eIDFKcbDxXo-unsplash.jpg', './images/25.webp', './images/37.jpg']
+  var images3 = ['./images/creative.jpg', './images/chatapp8.jpg', './images/36.jpg', './images/malte-helmhold-eIDFKcbDxXo-unsplash.jpg', './images/25.webp', './images/37.jpg']
   setInterval(function(){
     var random = Math.floor(Math.random() * 6);
     image3.src = images3[random];
