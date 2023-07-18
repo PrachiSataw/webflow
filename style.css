@@ -1,14 +1,14 @@
 @font-face {
     font-family: Roboto_Serif;
-    src: url('/fonts/Roboto_Serif/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf');
+    src: url('/fonts/roboto/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf');
 }
 @font-face {
     font-family: Aboreto;
-    src: url('/fonts/Aboreto/Aboreto-Regular.ttf');
+    src: url('/fonts/aboreto/Aboreto-Regular.ttf');
 }
 @font-face {
     font-family: Gilroy;
-    src: url("/fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf");
+    src: url("/fonts/gilroy/Gilroy-FREE/Gilroy-Light.otf");
 }
 
 *{
